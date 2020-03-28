@@ -8,7 +8,8 @@ Very soon after commiting this read-me, I'll implement caching so the requests w
 # Endpoints
 |  Request  | Output  |
 | ------------ | ------------ |
-| https://167.86.121.152:15022/api/v1/covid19/data | Get unfiltered data of today (and tomorrow). Use `&country` to filter countries/regions, and/or use `&province` to filter the province/state. |
+| https://167.86.121.152:15022/api/v1/covid19/today | Get unfiltered data of today. Use `&country` to filter countries/regions, and/or use `&province` to filter the province/state. |
+| https://167.86.121.152:15022/api/v1/covid19/yesterday | Get unfiltered data of yesterday. Use `&country` to filter countries/regions, and/or use `&province` to filter the province/state. |
 | https://167.86.121.152:15022/api/v1/covid19/range | Get unfiltered data within a range. Use `&start` for start date and `&end` for end date using the example format: `03 28 2020`. Use `&country` to filter countries/regions, and/or use `&province` to filter the province/state. |
 
 ### Examples
