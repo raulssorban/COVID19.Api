@@ -13,8 +13,8 @@ Very soon after commiting this read-me, I'll implement caching so the requests w
 | https://167.86.121.152:15022/api/v1/covid19/range | Get unfiltered data within a range. Use `&start` for start date and `&end` for end date using the example format: `03 28 2020`. Use `&country` to filter countries/regions, and/or use `&province` to filter the province/state. |
 
 ### Examples
-- [Austria Info](https://167.86.121.152:15022/api/v1/covid19/data?country=austria)
-- [US, Massachusetts](https://167.86.121.152:15022/api/v1/covid19/data?country=us&province=massachusetts)
+- [Austria Info (Yesterday)](https://167.86.121.152:15022/api/v1/covid19/yesterday?country=austria)
+- [US, Massachusetts (Yesterday)](https://167.86.121.152:15022/api/v1/covid19/yesterday?country=us&province=massachusetts)
 - [Romania (20th March to today)](https://167.86.121.152:15022/api/v1/covid19/range?start=03%2025%202020&country=romania)
 
 # Sources: 
